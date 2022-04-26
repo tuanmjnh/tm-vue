@@ -2,8 +2,8 @@
   "name": "tm-vue",
   "version": "0.0.0",
   "scripts": {
-    "build": "vite build",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "dev": "vite --port 8100",
+    "preview": "vite preview --port 5050",
     "vue:cap": "vue add capacitor",
     "android:add": "npx cap add android",
     "android:copy": "npx cap copy android",
@@ -11,8 +11,8 @@
     "android:open": "npx cap open android",
     "capacitor:build": "vue-cli-service capacitor:build",
     "capacitor:serve": "vue-cli-service capacitor:serve",
-    "dev": "vite",
-    "preview": "vite preview --port 5050"
+    "build": "vite build",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
     "@capacitor/android": "^2.0.0",
