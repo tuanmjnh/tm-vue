@@ -9,15 +9,20 @@
     "android:copy": "npx cap copy android",
     "android:sync": "npx cap sync android",
     "android:open": "npx cap open android",
-    "capacitor:build": "vue-cli-service capacitor:build",
-    "capacitor:serve": "vue-cli-service capacitor:serve",
+    "ios:add": "npx cap add ios",
+    "ios:copy": "npx cap copy ios",
+    "ios:sync": "npx cap sync ios",
+    "ios:open": "npx cap open ios",
     "build": "vite build",
+    "cap:build": "vue-cli-service capacitor:build",
+    "cap:serve": "vue-cli-service capacitor:serve",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
     "@capacitor/android": "^2.0.0",
     "@capacitor/cli": "^2.0.0",
     "@capacitor/core": "^2.0.0",
+    "@capacitor/ios": "^2.0.0",
     "vue": "^3.2.33",
     "vue-router": "^4.0.14"
   },
